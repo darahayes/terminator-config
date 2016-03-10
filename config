@@ -1,0 +1,36 @@
+[global_config]
+  title_transmit_bg_color = "#22ddff"
+[keybindings]
+  go_up = <Primary>Up
+  move_tab_left = <Primary><Shift>Left
+  next_tab = <Primary>bracketright
+  split_horiz = <Primary>period
+  move_tab_right = <Primary><Shift>Right
+  prev_tab = <Primary>bracketleft
+  go_down = <Primary>Down
+  close_term = <Primary>slash
+  split_vert = <Primary>comma
+  go_right = <Primary>Right
+  go_left = <Primary>Left
+[profiles]
+  [[default]]
+    palette = "#000000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    autoclean_groups = False
+    background_image = None
+    background_darkness = 0.71
+    cursor_shape = ibeam
+    use_system_font = False
+    foreground_color = "#e7e7e7"
+    show_titlebar = False
+    font = Ubuntu Mono 13
+    background_color = "#2d2d2d"
+    scrollback_infinite = True
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
